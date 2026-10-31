@@ -7,8 +7,14 @@ let myBigInt : bigint = 100n
 
 
 
-const addTow = (a : number, b : number) :number =>{
+const addTow = (a : number, b : number)  =>{
 return a + b;
 }
 
-console.log(addTow("10", 11))
+console.log(addTow(27, 11202))
+
+
+// tsc || tsc --watch
+
+
+// tsc --init
