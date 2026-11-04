@@ -77,4 +77,25 @@ console.log(concatName("Abdus", "Salam",))
 const greetings = (fullName : string, greeting ="Hello") =>{
     console.log(greeting + " " + fullName);
 }
-greetings("salam", Hi)
+greetings("salam", "Hi")
+
+
+
+const sum = (...numbers: number[]) =>{
+    return numbers.reduce((total, sum => total + sum, 0))
+}
+
+
+sum(1, 2, 3, 4, 5, 6);
+
+
+
+const logUserAction = (
+    ...args: [name: string, age: number, isActive: boolean]
+) =>{
+    const [name, age] = args;
+
+    console.log(name + " is" + age);
+};
+
+logUserAction("Mir", 192, false);
