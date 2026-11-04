@@ -74,3 +74,7 @@ console.log(concatName("Abdus", "Salam",))
 
 
 
+const greetings = (fullName : string, greeting ="Hello") =>{
+    console.log(greeting + " " + fullName);
+}
+greetings("salam", Hi)
