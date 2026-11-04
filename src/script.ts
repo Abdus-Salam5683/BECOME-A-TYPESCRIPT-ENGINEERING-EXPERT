@@ -103,13 +103,15 @@ logUserAction("Mir", 192, false);
 
 // * Object type, type alias and interface
 
-const user: {
+type User =  {
     name:string;
     age: number;
     isActive: boolean;
     action: () => void;
     badges: string[];
-}= {
+}
+
+const user: User = {
     name: "Mir",
     age: 123,
     isActive: true,
@@ -117,6 +119,7 @@ const user: {
 
     badges: ['abc', "def"]
 };
+
 
 
 
