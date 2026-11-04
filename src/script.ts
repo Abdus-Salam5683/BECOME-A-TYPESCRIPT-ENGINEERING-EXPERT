@@ -103,12 +103,18 @@ logUserAction("Mir", 192, false);
 
 // * Object type, type alias and interface
 
+type Address = {
+    streetName: string;
+    holdingNumber: number;
+}
+
 type User =  {
     name:string;
     age: number;
     isActive: boolean;
     action: () => void;
     badges: string[];
+     address: Address;
 }
 
 const user: User = {
@@ -117,8 +123,20 @@ const user: User = {
     isActive: true,
     action: () => console.log("Hello"),
 
-    badges: ['abc', "def"]
+    badges: ['abc', "def"],
+ 
 };
+
+
+interface IUser {
+    name: string;
+    age: number;
+    isActive: boolean;
+    action: () => void;
+    badges: string[];
+};
+
+
 
 
 
