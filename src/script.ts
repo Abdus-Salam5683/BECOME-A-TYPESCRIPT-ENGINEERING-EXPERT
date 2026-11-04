@@ -124,6 +124,10 @@ const user: User = {
     action: () => console.log("Hello"),
 
     badges: ['abc', "def"],
+    address: {
+        holdingNumber: 2455,
+        streetName: "Abcd"
+    }
  
 };
 
