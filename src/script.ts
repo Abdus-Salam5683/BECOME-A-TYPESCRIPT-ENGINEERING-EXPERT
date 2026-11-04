@@ -57,3 +57,20 @@ const dhakaLatLong :readonly [number, number] = [24.374, 88.6011]
 
 
 // dhakaLatLong[0] = 46464;
+
+
+const concatName = (firstName: string, lastName?: string) =>{
+    if(!lastName){
+        return firstName;
+    }
+
+    return firstName + " " + lastName;
+}
+
+
+console.log(concatName("Abdus"))
+console.log(concatName("Abdus", "Salam"))
+console.log(concatName("Abdus", "Salam",))
+
+
+
