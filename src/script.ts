@@ -45,4 +45,15 @@ for(let i = 7; i <10; i++){
 
 
 
+// const arr : Array<string> =["Programming", "Hero", "Bangladesh"];
 
+
+const arr : string[] =["Programming", "Hero", "Bangladesh"];
+
+const numArr : number[] = [1, 2, 3]
+
+
+const dhakaLatLong :readonly [number, number] = [24.374, 88.6011]
+
+
+// dhakaLatLong[0] = 46464;
